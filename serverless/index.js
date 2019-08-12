@@ -24,14 +24,14 @@ function main(params) {
       //https://en.wikipedia.org/wiki/San_Francisco
 
       var options = {
-        url: params.cloudiaryURL,
+        url: params.cloudinaryURL,
         method: 'GET',
         qs: { 'tag': params.tag }
       }
 
       request(options, function (error, response, body) {
         console.log(`response code: ${response.statusCode}`);
-        console.log(response);
+        console.log(response.headers);
         if (!error) {
           const resultURL = JSON.parse(body).url;
           console.log(resultURL)
