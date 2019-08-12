@@ -29,4 +29,7 @@ Come join us for an evening of food and fun as we teach you how to build a perso
 
 ## Speakers
 Aditi, Developer Support Engineer, Cloudinary
+
 Upkar Lidder, Developer Advocate, IBM
+- [Twitter](https://twitter.com/lidderupk) (@lidderupk)
+- [Github](https://github.com/lidderupk)
