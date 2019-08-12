@@ -19,19 +19,19 @@ function main(params) {
         });
     }
     else if (params && params.getpicture) {
-      console.log(`getting picture for ${params.tag} from cloudinary`);
+      console.log(`getting picture for :${params.tag}: from cloudinary`);
       //https://www.sfgate.com/entertainment/article/Disney-s-surprise-stumble-at-Star-Wars-Land-14286892.php
       //https://en.wikipedia.org/wiki/San_Francisco
 
-      const cloudiaryURL = "https://us-south.functions.cloud.ibm.com/api/v1/web/aditi%40cloudinary.com_dev/default/GetPictures.json"
       var options = {
-        url: cloudiaryURL,
+        url: params.cloudiaryURL,
         method: 'GET',
         qs: { 'tag': params.tag }
       }
 
       request(options, function (error, response, body) {
-        console.log(`response code: ${response.statusCode}`)
+        console.log(`response code: ${response.statusCode}`);
+        console.log(response);
         if (!error) {
           const resultURL = JSON.parse(body).url;
           console.log(resultURL)
