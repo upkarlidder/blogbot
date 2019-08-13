@@ -5,28 +5,28 @@
       "intent": "changesize",
       "examples": [
         {
-          "text": "Can you change the size to web size?"
-        },
-        {
-          "text": "these pictures are too big. Let's reduce the size for the blog post."
-        },
-        {
-          "text": "I need small pictures."
-        },
-        {
-          "text": "I need medium pictures"
+          "text": "can you make the pictures 100px by 100px?"
         },
         {
           "text": "I need large pictures"
         },
         {
-          "text": "can you reduce the size of the pictures?"
+          "text": "I need medium pictures"
         },
         {
-          "text": "can you make the pictures 100px by 100px?"
+          "text": "I need small pictures."
+        },
+        {
+          "text": "these pictures are too big. Let's reduce the size for the blog post."
+        },
+        {
+          "text": "Can you change the size to web size?"
         },
         {
           "text": "let's change the size of the pictures"
+        },
+        {
+          "text": "can you reduce the size of the pictures?"
         }
       ],
       "description": "the user wants to change the size of the pictures"
@@ -34,6 +34,9 @@
     {
       "intent": "General_Connect_to_Agent",
       "examples": [
+        {
+          "text": "I don't want to talk to a bot."
+        },
         {
           "text": "Yes, take me to a real person"
         },
@@ -68,28 +71,7 @@
           "text": "Is there anyone there I can actually talk to for real?"
         },
         {
-          "text": "A real agent, please."
-        },
-        {
-          "text": "Agent help"
-        },
-        {
-          "text": "Call agent"
-        },
-        {
-          "text": "Can I connect to an agent?"
-        },
-        {
-          "text": "Can I speak to a human please?"
-        },
-        {
-          "text": "Can I speak to a live person?"
-        },
-        {
-          "text": "Can I speak with somebody?"
-        },
-        {
-          "text": "Can I speak to an advisor?"
+          "text": "I would like to speak to someone"
         },
         {
           "text": "I would like to speak to a human"
@@ -110,43 +92,61 @@
           "text": "I need to speak to a representative. How would I go about doing so?"
         },
         {
-          "text": "I don't want to talk to you"
+          "text": "A real agent, please."
         },
         {
-          "text": "I don't want to talk to a bot."
+          "text": "Agent help"
         },
         {
-          "text": "How can I skip the recorded menu and go straight to a live person?"
+          "text": "Call agent"
         },
         {
-          "text": "Hi can you transfer me"
+          "text": "Can I connect to an agent?"
         },
         {
-          "text": "I would like to speak to someone"
+          "text": "Can I speak to a human please?"
         },
         {
-          "text": "Do not want a robot?"
+          "text": "Can I speak to a live person?"
         },
         {
-          "text": "Customer service representative please."
+          "text": "Can I speak to an advisor?"
         },
         {
-          "text": "Could you please transfer me to your master?"
+          "text": "Can I speak with somebody?"
         },
         {
-          "text": "Contact person"
-        },
-        {
-          "text": "Connect me to a live operator please."
-        },
-        {
-          "text": "Can you connect me with a real person?"
+          "text": "Can I talk to someone?"
         },
         {
           "text": "Can you assist me to connect to an agent?"
         },
         {
-          "text": "Can I talk to someone?"
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to you"
         }
       ],
       "description": "Request a human agent."
@@ -155,7 +155,58 @@
       "intent": "General_Security_Assurance",
       "examples": [
         {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
           "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
         },
         {
           "text": "Will my conversation remain secured?"
@@ -165,54 +216,6 @@
         },
         {
           "text": "What safety measures are used to ensure that chat is secure?"
-        },
-        {
-          "text": "What makes this chat trustworthy?"
-        },
-        {
-          "text": "What guards do you have in place to protect your customer's data?"
-        },
-        {
-          "text": "Secure conversation?"
-        },
-        {
-          "text": "Protection hacks?"
-        },
-        {
-          "text": "Precautions hackers?"
-        },
-        {
-          "text": "Is this conversation secure?"
-        },
-        {
-          "text": "Is this an official chat?"
-        },
-        {
-          "text": "Is this a trusted chat site?"
-        },
-        {
-          "text": "Is there a reason to distrust this chat?"
-        },
-        {
-          "text": "Is my payment information secure?"
-        },
-        {
-          "text": "Is my card info secure?"
-        },
-        {
-          "text": "In what way can I tell if my plastic is safe?"
-        },
-        {
-          "text": "I'd like proof of a secure chat"
-        },
-        {
-          "text": "How safe is my data?"
-        },
-        {
-          "text": "How is my credit card info secured?"
-        },
-        {
-          "text": "How do I know if my card info is kept safe?"
         },
         {
           "text": "Do you have protection against hacks?"
@@ -228,9 +231,6 @@
         },
         {
           "text": "Are you safe?"
-        },
-        {
-          "text": "Are you safe on hackers?"
         }
       ],
       "description": "Express concerns about the security of the bot."
@@ -239,28 +239,28 @@
       "intent": "Bot_Control_Change_Subject",
       "examples": [
         {
-          "text": "A different matter"
-        },
-        {
-          "text": "Another thing"
-        },
-        {
-          "text": "Can we talk about something else?"
-        },
-        {
-          "text": "Change topic"
-        },
-        {
-          "text": "Chat about something else"
-        },
-        {
-          "text": "Discuss something else"
+          "text": "Here is another issue"
         },
         {
           "text": "Help me with this other question"
         },
         {
-          "text": "Here is another issue"
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "A different matter"
         },
         {
           "text": "I have one more question"
@@ -269,10 +269,10 @@
           "text": "Let us change the topic"
         },
         {
-          "text": "Let us talk about something else"
+          "text": "Talk about something else"
         },
         {
-          "text": "Talk about something else"
+          "text": "Let us talk about something else"
         }
       ],
       "description": "Change to a different topic."
@@ -281,28 +281,28 @@
       "intent": "workwithblog",
       "examples": [
         {
-          "text": "Work on this blog"
-        },
-        {
-          "text": "Let's get some pictures for my blog!"
+          "text": "Can you add some content to my blog?"
         },
         {
           "text": "Work on my blog?"
         },
         {
-          "text": "Can you add some content to my blog?"
-        },
-        {
-          "text": "I need some free pictures for my blog."
-        },
-        {
-          "text": "I need some example pictures for this blog."
+          "text": "I need some pictures for my blog!"
         },
         {
           "text": "Can you help me make my blog pretty?"
         },
         {
-          "text": "I need some pictures for my blog!"
+          "text": "Let's get some pictures for my blog!"
+        },
+        {
+          "text": "Work on this blog"
+        },
+        {
+          "text": "I need some example pictures for this blog."
+        },
+        {
+          "text": "I need some free pictures for my blog."
         }
       ],
       "description": "The user wants to work on their blog"
@@ -311,7 +311,49 @@
       "intent": "General_Greetings",
       "examples": [
         {
+          "text": "Hey there"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
           "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
         },
         {
           "text": "Good day"
@@ -347,49 +389,7 @@
           "text": "Hey there all"
         },
         {
-          "text": "Hey there"
-        },
-        {
           "text": "Hey twin"
-        },
-        {
-          "text": "Hey you"
-        },
-        {
-          "text": "Hi advisor"
-        },
-        {
-          "text": "How are things going?"
-        },
-        {
-          "text": "How are you today?"
-        },
-        {
-          "text": "How have you been?"
-        },
-        {
-          "text": "How is it going?"
-        },
-        {
-          "text": "How r u?"
-        },
-        {
-          "text": "Looking good eve"
-        },
-        {
-          "text": "Ok take me back"
-        },
-        {
-          "text": "What's new?"
-        },
-        {
-          "text": "What's up?"
-        },
-        {
-          "text": "Who is this?"
-        },
-        {
-          "text": "You there"
         }
       ],
       "description": "Greet the bot."
@@ -397,42 +397,6 @@
     {
       "intent": "General_About_You",
       "examples": [
-        {
-          "text": "About you"
-        },
-        {
-          "text": "Tell me something about yourself"
-        },
-        {
-          "text": "What languages do you speak?"
-        },
-        {
-          "text": "What should I know about you?"
-        },
-        {
-          "text": "What's your name?"
-        },
-        {
-          "text": "Where are you from?"
-        },
-        {
-          "text": "Where were you born?"
-        },
-        {
-          "text": "Who are you?"
-        },
-        {
-          "text": "Why are you here?"
-        },
-        {
-          "text": "Tell me about your life"
-        },
-        {
-          "text": "Let us talk about you"
-        },
-        {
-          "text": "Introduce your self"
-        },
         {
           "text": "I want to set up the chat bot for my shop"
         },
@@ -456,6 +420,42 @@
         },
         {
           "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
         }
       ],
       "description": "Request generic personal attributes."
@@ -464,25 +464,10 @@
       "intent": "Bot_Control_Reject_Response",
       "examples": [
         {
-          "text": "It is not what I want"
-        },
-        {
-          "text": "Bad response"
-        },
-        {
-          "text": "I disagree"
-        },
-        {
-          "text": "I do not think it is the answer?"
-        },
-        {
-          "text": "I don't need that"
-        },
-        {
-          "text": "I don't want that"
-        },
-        {
           "text": "I wasn't looking for that"
+        },
+        {
+          "text": "It is not what I want"
         },
         {
           "text": "It is not what I was looking for"
@@ -525,6 +510,21 @@
         },
         {
           "text": "You're misunderstanding me"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I don't want that"
         }
       ],
       "description": "Indicate the bot's response does not address a question."
@@ -532,6 +532,21 @@
     {
       "intent": "Bot_Control_Unsure",
       "examples": [
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
         {
           "text": "I haven't got a clue"
         },
@@ -552,21 +567,6 @@
         },
         {
           "text": "To be honest, I m really not sure"
-        },
-        {
-          "text": "You got me"
-        },
-        {
-          "text": "I don t know what you need"
-        },
-        {
-          "text": "I don t know what you want"
-        },
-        {
-          "text": "I have no idea, actually"
-        },
-        {
-          "text": "I have no idea what you are looking for"
         }
       ],
       "description": "Indicate no definite answer to a question."
@@ -575,31 +575,37 @@
       "intent": "General_Jokes",
       "examples": [
         {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
           "text": "I am getting bored"
-        },
-        {
-          "text": "What is your favorite joke?"
-        },
-        {
-          "text": "What do you do for fun?"
         },
         {
           "text": "I want a joke"
         },
         {
-          "text": "Tell me something funny"
-        },
-        {
-          "text": "Tell me a joke"
-        },
-        {
-          "text": "Surprise me with something hilarious"
+          "text": "I'm bored"
         },
         {
           "text": "One more joke"
         },
         {
-          "text": "I'm bored"
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
         },
         {
           "text": "Another joke"
@@ -618,12 +624,6 @@
         },
         {
           "text": "Do you have humor?"
-        },
-        {
-          "text": "Do you like fun?"
-        },
-        {
-          "text": "Do you like humor?"
         }
       ],
       "description": "Request a joke."
@@ -632,7 +632,19 @@
       "intent": "Bot_Control_Approve_Response",
       "examples": [
         {
-          "text": "That is what I need"
+          "text": "For sure!"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "I agree"
         },
         {
           "text": "You read my mind"
@@ -650,49 +662,37 @@
           "text": "This is alright"
         },
         {
-          "text": "Affirmative. That's what I'm looking for."
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "I like that"
         },
         {
           "text": "All right"
         },
         {
           "text": "Correct"
-        },
-        {
-          "text": "For sure!"
-        },
-        {
-          "text": "Got it"
-        },
-        {
-          "text": "Great"
-        },
-        {
-          "text": "I agree"
-        },
-        {
-          "text": "I like that"
-        },
-        {
-          "text": "Indeed!"
-        },
-        {
-          "text": "Sure thing!"
-        },
-        {
-          "text": "Sweet"
-        },
-        {
-          "text": "That is precisely what I was looking for"
-        },
-        {
-          "text": "That is right"
-        },
-        {
-          "text": "That is the proper response."
-        },
-        {
-          "text": "That's exactly what I want"
         }
       ],
       "description": "Acknowledge that the response satisfies a question."
@@ -701,73 +701,49 @@
       "intent": "General_Ending",
       "examples": [
         {
-          "text": "Shut up"
-        },
-        {
-          "text": "Go off"
-        },
-        {
-          "text": "Going now"
-        },
-        {
-          "text": "Good. bye."
-        },
-        {
           "text": "Goodbye"
-        },
-        {
-          "text": "Have a nice day?"
-        },
-        {
-          "text": "Hey bot go away"
-        },
-        {
-          "text": "Time to go"
-        },
-        {
-          "text": "I am leaving"
-        },
-        {
-          "text": "That's everything"
-        },
-        {
-          "text": "That is all"
-        },
-        {
-          "text": "Thanks very much, bye!"
-        },
-        {
-          "text": "Thanks, bye!"
-        },
-        {
-          "text": "Thank you for your time"
-        },
-        {
-          "text": "Stop talking to me"
-        },
-        {
-          "text": "Stop doing this"
-        },
-        {
-          "text": "Go away"
-        },
-        {
-          "text": "See you"
-        },
-        {
-          "text": "See you later"
-        },
-        {
-          "text": "Ok goodbye"
         },
         {
           "text": "It was nice chatting with you"
         },
         {
-          "text": "I'm done"
+          "text": "I'm leaving now"
         },
         {
-          "text": "I want to quit"
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Ok goodbye"
         },
         {
           "text": "I have got to go"
@@ -779,13 +755,16 @@
           "text": "I am out of here"
         },
         {
-          "text": "I'm leaving now"
+          "text": "I am leaving"
         },
         {
-          "text": "Im good thank you"
+          "text": "Hey bot go away"
         },
         {
-          "text": "Im done"
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Good. bye."
         },
         {
           "text": "Bye bye"
@@ -810,42 +789,63 @@
         },
         {
           "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
         }
       ],
       "description": "End the conversation."
     },
     {
+      "intent": "effect",
+      "examples": [
+        {
+          "text": "apply another filter"
+        },
+        {
+          "text": "let's apply an effect"
+        },
+        {
+          "text": "Can you please add an effect to this image?"
+        },
+        {
+          "text": "I want to change the image"
+        },
+        {
+          "text": "I want to cartoonify the image"
+        },
+        {
+          "text": "I want to convert the picture to grayscale"
+        },
+        {
+          "text": "I want to add an effect."
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "General_Agent_Capabilities",
       "examples": [
         {
-          "text": "How can you help me?"
-        },
-        {
-          "text": "How can I use you?"
-        },
-        {
           "text": "Hi, what do you do?"
-        },
-        {
-          "text": "Help now"
-        },
-        {
-          "text": "Do you have a list of things I can talk to you about?"
-        },
-        {
-          "text": "Can you tell me what services you are able to help me with?"
-        },
-        {
-          "text": "Can you please give me a list of the types of things you can help me with?"
-        },
-        {
-          "text": "What are you used for?"
-        },
-        {
-          "text": "What are you good at?"
-        },
-        {
-          "text": "What are you capable of?"
         },
         {
           "text": "Where can I find the frequently asked questions?"
@@ -873,6 +873,15 @@
         },
         {
           "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
         },
         {
           "text": "What are you able to understand?"
@@ -906,6 +915,24 @@
         },
         {
           "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
         }
       ],
       "description": "Request capabilities of the bot."
@@ -914,55 +941,55 @@
       "intent": "Bot_Control_Clarification",
       "examples": [
         {
-          "text": "I don't understand"
-        },
-        {
           "text": "Can you say that again please?"
         },
         {
-          "text": "Come again?"
-        },
-        {
-          "text": "Explains"
-        },
-        {
-          "text": "I did not quite understand what you gave me"
-        },
-        {
-          "text": "I didn't catch that"
-        },
-        {
-          "text": "I didn't quite understand what you said"
-        },
-        {
-          "text": "I didn't understand that properly"
-        },
-        {
-          "text": "I don't get it"
-        },
-        {
-          "text": "I don't understand what you're saying"
-        },
-        {
-          "text": "I need more information"
-        },
-        {
-          "text": "Let's try to say that again more clearly, shall we?"
-        },
-        {
-          "text": "What are you referring to?"
-        },
-        {
-          "text": "What are you saying?"
-        },
-        {
-          "text": "What are you talking about?"
+          "text": "What do you mean?"
         },
         {
           "text": "What do you mean by that?"
         },
         {
-          "text": "What do you mean?"
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "Come again?"
         }
       ],
       "description": "Repeat or clarify last statement."
@@ -970,6 +997,27 @@
     {
       "intent": "Bot_Control_Ignore_Undo",
       "examples": [
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
         {
           "text": "It's not what I mean"
         },
@@ -989,28 +1037,7 @@
           "text": "Hold on! I think I want to do it differently."
         },
         {
-          "text": "Cancel"
-        },
-        {
           "text": "Actually, I take that back"
-        },
-        {
-          "text": "Never"
-        },
-        {
-          "text": "Not yet"
-        },
-        {
-          "text": "Nothing"
-        },
-        {
-          "text": "Wait! Let's back up few steps and do that again"
-        },
-        {
-          "text": "Never mind"
-        },
-        {
-          "text": "Let us redo that again!"
         }
       ],
       "description": "Ask the bot to take one step back."
@@ -1019,31 +1046,28 @@
       "intent": "Bot_Control_Start_Over",
       "examples": [
         {
-          "text": "How can I start over?"
-        },
-        {
-          "text": "Can we please start over?"
+          "text": "Back to the top"
         },
         {
           "text": "Begin over!"
         },
         {
-          "text": "Back to the top"
+          "text": "Can we please start over?"
         },
         {
-          "text": "Back to the beginning"
+          "text": "How can I start over?"
         },
         {
           "text": "Actually, let's start over"
-        },
-        {
-          "text": "Start over"
         },
         {
           "text": "We will need to begin again"
         },
         {
           "text": "We need a do-over"
+        },
+        {
+          "text": "Start over"
         },
         {
           "text": "Restart"
@@ -1077,6 +1101,9 @@
         },
         {
           "text": "I need to reset."
+        },
+        {
+          "text": "Back to the beginning"
         }
       ],
       "description": "Restart bot or current flow."
@@ -1085,13 +1112,13 @@
       "intent": "General_Human_or_Bot",
       "examples": [
         {
+          "text": "How can you prove you are a human?"
+        },
+        {
           "text": "Tell me, are you a human or no?"
         },
         {
           "text": "Is this a computer?"
-        },
-        {
-          "text": "How can you prove you are a human?"
         },
         {
           "text": "Are you real?"
@@ -1127,21 +1154,6 @@
       "intent": "General_Positive_Feedback",
       "examples": [
         {
-          "text": "How cool is this?"
-        },
-        {
-          "text": "Can't believe you are that good"
-        },
-        {
-          "text": "Brilliant!"
-        },
-        {
-          "text": "You've been so helpful :)"
-        },
-        {
-          "text": "You're a genius!"
-        },
-        {
           "text": "You the man"
         },
         {
@@ -1151,7 +1163,28 @@
           "text": "You are wonderful"
         },
         {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
           "text": "You are the best"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
         },
         {
           "text": "You are great"
@@ -1169,19 +1202,13 @@
           "text": "This is good"
         },
         {
+          "text": "You've been so helpful :)"
+        },
+        {
           "text": "Thank you"
         },
         {
-          "text": "Ok thank you"
-        },
-        {
-          "text": "Love your work"
-        },
-        {
-          "text": "I'm looking forward to working with you again! :)"
-        },
-        {
-          "text": "I like what you did there! :)"
+          "text": "You're a genius!"
         }
       ],
       "description": "Express positive sentiment or gratitude."
@@ -1190,25 +1217,22 @@
       "intent": "General_Negative_Feedback",
       "examples": [
         {
-          "text": "Do not like you?"
+          "text": "You are having delusions"
         },
         {
-          "text": "Hate you"
-        },
-        {
-          "text": "I do not like you"
-        },
-        {
-          "text": "Everyone hates you"
-        },
-        {
-          "text": "I hate this!"
+          "text": "You are on my nerves"
         },
         {
           "text": "I hate you"
         },
         {
-          "text": "It is annoying"
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Why are you so annoying?"
         },
         {
           "text": "Quit annoying me"
@@ -1223,31 +1247,34 @@
           "text": "Stupid"
         },
         {
-          "text": "Why are you so annoying?"
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
         },
         {
           "text": "Why are you stupid?"
         },
         {
-          "text": "You are having delusions"
-        },
-        {
-          "text": "You are on my nerves"
-        },
-        {
-          "text": "You are very frustrating"
-        },
-        {
-          "text": "You do not seem smart"
-        },
-        {
-          "text": "You're really frustrating"
+          "text": "You're too stupid"
         },
         {
           "text": "You're really irritating"
         },
         {
-          "text": "You're too stupid"
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
         }
       ],
       "description": "Express unfavorable feedback."
@@ -1256,7 +1283,7 @@
       "intent": "Bot_Control_Standby",
       "examples": [
         {
-          "text": "I will be back"
+          "text": "Just hold on"
         },
         {
           "text": "Back again soon"
@@ -1289,6 +1316,9 @@
           "text": "I want stop a moment"
         },
         {
+          "text": "I will be back"
+        },
+        {
           "text": "I would like to put you on hold"
         },
         {
@@ -1296,9 +1326,6 @@
         },
         {
           "text": "Just a sec"
-        },
-        {
-          "text": "Just hold on"
         },
         {
           "text": "Keep holding"
@@ -1325,6 +1352,9 @@
           "text": "Am I talking to someone?"
         },
         {
+          "text": "Are you still around?"
+        },
+        {
           "text": "Anyone there?"
         },
         {
@@ -1334,46 +1364,121 @@
           "text": "Are you on?"
         },
         {
-          "text": "Are you still around?"
-        },
-        {
-          "text": "Are you still here with me?"
-        },
-        {
-          "text": "Are you there?"
-        },
-        {
-          "text": "Did you go somewhere?"
-        },
-        {
-          "text": "Did you hear what I said?"
-        },
-        {
-          "text": "Have I lost you?"
-        },
-        {
-          "text": "I am still holding"
-        },
-        {
-          "text": "Is anybody here?"
-        },
-        {
-          "text": "Is anybody home?"
-        },
-        {
-          "text": "Speak to me if you are there."
+          "text": "You around?"
         },
         {
           "text": "Where'd you go?"
         },
         {
-          "text": "You around?"
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Are you still here with me?"
         }
       ],
       "description": "Ask the bot to indicate that it is available."
     }
   ],
   "entities": [
+    {
+      "entity": "effects",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "e_sepia",
+          "synonyms": [
+            "sepia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "e_auto_brightness",
+          "synonyms": [
+            "auto",
+            "auto brightness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "e_tint",
+          "synonyms": [
+            "tint",
+            "tinted",
+            "dye",
+            "ink",
+            "blueish",
+            "tinge"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "e_hue",
+          "synonyms": [
+            "hue"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "e_oil_paint",
+          "synonyms": [
+            "oil",
+            "paint",
+            "oil paint"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "e_grayscale",
+          "synonyms": [
+            "black and white",
+            "remove color"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "e_cartoonify",
+          "synonyms": [
+            "cartoonify",
+            "cartoon",
+            "cartoons",
+            "toon",
+            "comic",
+            "animated",
+            "cartoonist"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "e_negate",
+          "synonyms": [
+            "negate",
+            "negative"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
     {
       "entity": "url",
       "values": [
@@ -1383,6 +1488,56 @@
           "patterns": [
             "((([A-Za-z]{3,9}:(?:\\/\\/)?)(?:[-;:&=\\+\\$,\\w]+@)?[A-Za-z0-9.-]+(:[0-9]+)?|(?:www.|[-;:&=\\+\\$,\\w]+@)[A-Za-z0-9.-]+)((?:\\/[\\+~%\\/.\\w-_]*)?\\??(?:[-\\+=&;%@.\\w_]*)#?(?:[\\w]*))?)"
           ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "none"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "none",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "never",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no thanks.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "not now",
+          "synonyms": [
+            "not_now"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "leave me alone",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "maybe later",
+          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -1405,6 +1560,101 @@
   ],
   "description": "",
   "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "title": "response_6_1565647107745",
+      "output": {
+        "generic": [
+          {
+            "source": "https://res.cloudinary.com/aditimadan/image/upload/e_grayscale/<? $webhook_result_2.status ?>",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1565642131450",
+      "conditions": "@effects:e_grayscale",
+      "dialog_node": "response_6_1565647107745",
+      "previous_sibling": "response_10_1565647083107"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_10_1565647083107",
+      "output": {
+        "generic": [
+          {
+            "source": "https://res.cloudinary.com/aditimadan/image/upload/e_sepia/<? $webhook_result_2.status ?>",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1565642131450",
+      "conditions": "@effects:e_sepia",
+      "dialog_node": "response_10_1565647083107",
+      "previous_sibling": "response_6_1565646799277"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_6_1565646799277",
+      "output": {
+        "generic": [
+          {
+            "source": "https://res.cloudinary.com/aditimadan/image/upload/e_oil_paint/<? $webhook_result_2.status ?>",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1565642131450",
+      "conditions": "@effects:e_oil_paint",
+      "dialog_node": "response_6_1565646799277",
+      "previous_sibling": "response_1_1565642142395"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1565650009979",
+      "output": {
+        "generic": [
+          {
+            "source": "https://res.cloudinary.com/aditimadan/image/upload/e_negate/<? $webhook_result_2.status ?>",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1565642131450",
+      "conditions": "@effects:e_negate",
+      "dialog_node": "response_1_1565650009979",
+      "previous_sibling": "response_6_1565647107745"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_4_1565647767241",
+      "output": {
+        "text": {
+          "values": [
+            "Okay. You can always ask me again!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1565642131450",
+      "conditions": "@no",
+      "dialog_node": "response_4_1565647767241",
+      "previous_sibling": "response_1_1565650009979"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1565642142395",
+      "output": {
+        "generic": [
+          {
+            "source": "https://res.cloudinary.com/aditimadan/image/upload/e_cartoonify/<? $webhook_result_2.status ?>",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1565642131450",
+      "conditions": "@effects:e_cartoonify",
+      "dialog_node": "response_1_1565642142395"
+    },
     {
       "type": "response_condition",
       "title": "response_4_1565130925008",
@@ -1471,6 +1721,84 @@
       "dialog_node": "node_6_1565138090410"
     },
     {
+      "type": "response_condition",
+      "title": "response_3_1565642095462",
+      "output": {
+        "generic": [
+          {
+            "title": "Would you like to add an effect to this image?",
+            "options": [
+              {
+                "label": "Negate",
+                "value": {
+                  "input": {
+                    "text": "e_negate"
+                  }
+                }
+              },
+              {
+                "label": "Grayscale",
+                "value": {
+                  "input": {
+                    "text": "e_grayscale"
+                  }
+                }
+              },
+              {
+                "label": "Tint",
+                "value": {
+                  "input": {
+                    "text": "e_tint"
+                  }
+                }
+              },
+              {
+                "label": "Hue",
+                "value": {
+                  "input": {
+                    "text": "e_hue"
+                  }
+                }
+              },
+              {
+                "label": "Cartoonify",
+                "value": {
+                  "input": {
+                    "text": "e_cartoonify"
+                  }
+                }
+              },
+              {
+                "label": "Oil Paint",
+                "value": {
+                  "input": {
+                    "text": "e_oil_paint"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1565641677813",
+      "disabled": true,
+      "dialog_node": "response_3_1565642095462",
+      "previous_sibling": "node_1_1565642131450"
+    },
+    {
+      "type": "standard",
+      "title": "apply effects",
+      "parent": "node_9_1565641677813",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1565642131450"
+    },
+    {
       "type": "event_handler",
       "output": {
         "text": {
@@ -1533,12 +1861,20 @@
       "output": {
         "generic": [
           {
-            "source": "<? $webhook_result_2.status ?>",
+            "source": "<? $image_url ?>",
             "response_type": "image"
           }
         ]
       },
       "parent": "node_5_1565201394959",
+      "context": {
+        "image_url": "https://res.cloudinary.com/aditimadan/image/upload/<? $webhook_result_2.status ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1565641677813"
+      },
       "conditions": "$webhook_result_2",
       "dialog_node": "node_4_1565204296596"
     },
@@ -1570,6 +1906,85 @@
     },
     {
       "type": "standard",
+      "title": "effects",
+      "output": {
+        "generic": [
+          {
+            "title": "Would you like to add an effect to this image?",
+            "options": [
+              {
+                "label": "Negate",
+                "value": {
+                  "input": {
+                    "text": "e_negate"
+                  }
+                }
+              },
+              {
+                "label": "Grayscale",
+                "value": {
+                  "input": {
+                    "text": "e_grayscale"
+                  }
+                }
+              },
+              {
+                "label": "Tint",
+                "value": {
+                  "input": {
+                    "text": "e_tint"
+                  }
+                }
+              },
+              {
+                "label": "Hue",
+                "value": {
+                  "input": {
+                    "text": "e_hue"
+                  }
+                }
+              },
+              {
+                "label": "Cartoonify",
+                "value": {
+                  "input": {
+                    "text": "e_cartoonify"
+                  }
+                }
+              },
+              {
+                "label": "Oil Paint",
+                "value": {
+                  "input": {
+                    "text": "e_oil_paint"
+                  }
+                }
+              },
+              {
+                "label": "Not now",
+                "value": {
+                  "input": {
+                    "text": "not now"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#effect",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1565641677813",
+      "previous_sibling": "node_8_1565130818502"
+    },
+    {
+      "type": "standard",
       "title": "Start Over",
       "output": {
         "text": {
@@ -1580,6 +1995,7 @@
         }
       },
       "context": {
+        "image_url": null,
         "contentURL": null,
         "webhook_result_1": null,
         "webhook_result_2": null
@@ -1591,7 +2007,7 @@
       },
       "conditions": "#Bot_Control_Start_Over",
       "dialog_node": "node_2_1565584079707",
-      "previous_sibling": "node_8_1565130818502"
+      "previous_sibling": "node_9_1565641677813"
     },
     {
       "type": "standard",
