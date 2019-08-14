@@ -1610,6 +1610,22 @@
     },
     {
       "type": "response_condition",
+      "title": "response_4_1565647767241",
+      "output": {
+        "text": {
+          "values": [
+            "Okay. You can always ask me again!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1565642131450",
+      "conditions": "@no",
+      "dialog_node": "response_4_1565647767241",
+      "previous_sibling": "response_5_1565737689657"
+    },
+    {
+      "type": "response_condition",
       "title": "response_1_1565650009979",
       "output": {
         "generic": [
@@ -1626,18 +1642,18 @@
     },
     {
       "type": "response_condition",
-      "title": "response_4_1565647767241",
+      "title": "response_5_1565737689657",
       "output": {
-        "text": {
-          "values": [
-            "Okay. You can always ask me again!"
-          ],
-          "selection_policy": "sequential"
-        }
+        "generic": [
+          {
+            "source": "https://res.cloudinary.com/aditimadan/image/upload/e_negate/<? $webhook_result_2.status ?>",
+            "response_type": "image"
+          }
+        ]
       },
       "parent": "node_1_1565642131450",
-      "conditions": "@no",
-      "dialog_node": "response_4_1565647767241",
+      "conditions": "@effects:e_hue",
+      "dialog_node": "response_5_1565737689657",
       "previous_sibling": "response_1_1565650009979"
     },
     {
@@ -1795,7 +1811,7 @@
           "mcr": true
         }
       },
-      "conditions": "true",
+      "conditions": "@effects || @no",
       "dialog_node": "node_1_1565642131450"
     },
     {
